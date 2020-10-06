@@ -1,0 +1,184 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color 000;
+	font-size: 16px;
+}
+
+button {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color 000;
+	font-size: 16px;
+}
+
+
+
+h1,h2,h4,h5,h6 {
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+	color: white;
+}
+
+ul, li {
+	display: block;
+}
+
+header a {
+	color: white;
+
+}
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.header	{
+	background: url('../img/header-bg.jpg') no-repeat center top / cover;
+	padding-top: 57px;
+}
+
+.menu {
+	display: flex;
+	padding-inline-start: 0px;
+	margin-left: 70px;
+	margin-right: 623px;
+}
+
+.menu li a {
+	text-transform: uppercase;
+	padding: 40px;
+	font-style: 14px;
+	font-weight: 400;
+	line-height: 21px;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.menu li a:hover {
+	color: black;
+	background: white;
+}
+
+.tel {
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	text-decoration: none;
+	font-weight: normal;
+	font-size: 17px;
+	line-height: 25px;
+}
+
+
+.nav {
+	display: flex;
+	align-items: center;
+	padding: 0;
+	margin: 0;
+}
+
+.main {
+	margin-top: 216px;
+	padding-bottom: 332px;
+}
+
+.main h1 {
+	font-size: 100px;
+	line-height: 147px;
+	letter-spacing: 0.1em;
+	font-weight: normal;
+	margin-bottom: 37px;
+}
+
+.main h2 {
+	font-size: 30px;
+	line-height: 44px;
+	letter-spacing: 0.1em;
+	font-weight: normal;
+	color: white;
+}
+
+.btn {
+	font-size: 17px;
+	line-height: 25px;
+	text-align: center;
+	letter-spacing: 0.1em;
+	color: white;
+	border: 1px solid #FFFFFF;
+	box-sizing: border-box;
+	background: transparent;
+	padding: 18px 23px 18px 23px;
+	transition: all 0.3s ease;
+}
+
+.btn:hover {
+	color: black;
+	background: white;
+}
+
+section h1,h2 {
+	color: black;
+}
+
+.about {
+	font-size: 50px;
+	line-height: 73px;
+	text-transform: uppercase;
+	margin-top: 113px;
+	margin-bottom: 58px;
+	font-weight: normal;
+}
+
+.mainText {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 84px;
+}
+
+.rightInfo .leftinfo h1, h2 {
+	margin-bottom: 19px;
+	font-weight: normal;
+}
+
+.rightInfo .leftinfo h3 {
+	font-family: 'Open-Sans', sans-serif;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: justify;
+	font-weight: normal;
+}
+
+p {
+	font-family: Open Sans;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 16px;
+	line-height: 26px;
+	text-align: justify;
+	width: 564px;
+}
+
+.photos {
+	display: flex;
+	justify-content: space-between;
+}
+
+footer .container {
+	margin-top: 114px;
+	display: flex;
+}
+
+footer p {
+	
+	width: 244px;
+	height: 49px;
+	font-size: 15px;
+	line-height: 20px;
+	margin-right: 55px;
+}
+
+
